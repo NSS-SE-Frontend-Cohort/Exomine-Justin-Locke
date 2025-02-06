@@ -1,9 +1,7 @@
-const state = {
-
-}
+import getTransientState from './transientState.js'
 
 export const setFacility = (facilityId) => {
-    state.selectedFacility = facilityId
+    getTransientState().selectedFacility = facilityId
     document.dispatchEvent(new CustomEvent("stateChanged"))
 }
 

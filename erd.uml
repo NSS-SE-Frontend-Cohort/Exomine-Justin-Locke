@@ -1,49 +1,58 @@
 @startuml
 
 entity "Governors" as Governors {
-  * id : UUID <<PK>>
+  * id : Integer <<PK>>
   --
   * name : String
-  * colony_id : UUID <<FK>>
+  * colony_id : Integer <<FK>>
+  * colony_region_id : Integer <<FK>>
   * is_active : Boolean
 }
 
 entity "Colonies" as Colonies {
-  * id : UUID <<PK>>
+  * id : Integer <<PK>>
   --
   * name : String
+  * regions : String
+}
+
+entity "Regions" as Regions {
+  * id : Integer <<PK>>
+  * name : String
+  * colony_id : Integer <<FK>>
 }
 
 entity "Mining Facilities" as MiningFacilities {
-  * id : UUID <<PK>>
+  * id : Integer <<PK>>
   --
   * name : String
   * is_active : Boolean
 }
 
 entity "Minerals" as Minerals {
-  * id : UUID <<PK>>
+  * id : Integer <<PK>>
   --
   * name : String
 }
 
 entity "Colony Inventory" as ColonyInventory {
-  * id : UUID <<PK>>
+  * id : Integer <<PK>>
   --
-  * colony_id : UUID <<FK>>
-  * mineral_id : UUID <<FK>>
+  * colony_id : Integer <<FK>>
+  * mineral_id : Integer <<FK>>
   * quantity : Integer
 }
 
 entity "Mining Facility Inventory" as MiningFacilityInventory {
-  * id : UUID <<PK>>
+  * id : Integer <<PK>>
   --
-  * facility_id : UUID <<FK>>
-  * mineral_id : UUID <<FK>>
+  * facility_id : Integer <<FK>>
+  * mineral_id : Integer <<FK>>
   * quantity : Integer
 }
 
 Governors }o--|| Colonies
+Colonies ||--o{ Regions
 Colonies ||--|{ ColonyInventory
 ColonyInventory }|--|| Minerals
 MiningFacilities ||--|{ MiningFacilityInventory
