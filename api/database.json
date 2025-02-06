@@ -46,7 +46,211 @@
         }
 
     ],
-    "governors": [],
+    "governors": [
+        { 
+            "id": 1, 
+            "name": "Sarah Johnson", 
+            "colony_id": 1, 
+            "colony_region_id": 1, 
+            "is_active": true 
+        },
+        { 
+            "id": 2, 
+            "name": "Michael Lee", 
+            "colony_id": 1, 
+            "colony_region_id": 2, 
+            "is_active": true 
+        },
+        { 
+            "id": 3, 
+            "name": "Laura Smith", 
+            "colony_id": 1, 
+            "colony_region_id": 3, 
+            "is_active": true 
+        },
+        { 
+            "id": 4, 
+            "name": "James Williams", 
+            "colony_id": 1, 
+            "colony_region_id": 4, 
+            "is_active": true 
+        },
+        { 
+            "id": 5, 
+            "name": "Olivia Brown", 
+            "colony_id": 1, 
+            "colony_region_id": 5, 
+            "is_active": true 
+        },
+        { 
+            "id": 6, 
+            "name": "Ethan Davis", 
+            "colony_id": 1, 
+            "colony_region_id": 6, 
+            "is_active": true 
+        },
+        { 
+            "id": 7, 
+            "name": "Sophia Wilson", 
+            "colony_id": 1, 
+            "colony_region_id": 7, 
+            "is_active": true 
+        },
+        { 
+            "id": 8, 
+            "name": "David Martinez", 
+            "colony_id": 2, 
+            "colony_region_id": 8, 
+            "is_active": true 
+        },
+        { 
+            "id": 9, 
+            "name": "Isabella Rodriguez", 
+            "colony_id": 2, 
+            "colony_region_id": 9, 
+            "is_active": true 
+        },
+        { 
+            "id": 10, 
+            "name": "Henry Thompson", 
+            "colony_id": 2, 
+            "colony_region_id": 10, 
+            "is_active": true 
+        },
+        { 
+            "id": 11, 
+            "name": "Megan Harris", 
+            "colony_id": 2, 
+            "colony_region_id": 11, 
+            "is_active": true 
+        },
+        { 
+            "id": 12, 
+            "name": "Jacob Clark", 
+            "colony_id": 3, 
+            "colony_region_id": 12, 
+            "is_active": true 
+        },
+        { 
+            "id": 13, 
+            "name": "Amelia Allen", 
+            "colony_id": 3, 
+            "colony_region_id": 13, 
+            "is_active": true 
+        },
+        { 
+            "id": 14, 
+            "name": "William Walker", 
+            "colony_id": 4, 
+            "colony_region_id": 14, 
+            "is_active": true 
+        },
+        { 
+            "id": 15, 
+            "name": "Charlotte King", 
+            "colony_id": 4, 
+            "colony_region_id": 15, 
+            "is_active": true 
+        },
+        { 
+            "id": 16, 
+            "name": "Liam Wright", 
+            "colony_id": 5, 
+            "colony_region_id": 16, 
+            "is_active": true 
+        },
+        { 
+            "id": 17, 
+            "name": "Zoe Young", 
+            "colony_id": 5, 
+            "colony_region_id": 17, 
+            "is_active": true 
+        },
+        { 
+            "id": 18, 
+            "name": "Benjamin Scott", 
+            "colony_id": 6, 
+            "colony_region_id": 18, 
+            "is_active": true 
+        },
+        { 
+            "id": 19, 
+            "name": "Grace Lewis", 
+            "colony_id": 6, 
+            "colony_region_id": 19, 
+            "is_active": true 
+        },
+        { 
+            "id": 20, 
+            "name": "Lucas Perez", 
+            "colony_id": 7, 
+            "colony_region_id": 20, 
+            "is_active": true 
+        },
+        { 
+            "id": 21, 
+            "name": "Eva Turner", 
+            "colony_id": 7, 
+            "colony_region_id": 21, 
+            "is_active": true 
+        },
+        { 
+            "id": 22, 
+            "name": "Daniel Harris", 
+            "colony_id": 8, 
+            "colony_region_id": 22, 
+            "is_active": true 
+        },
+        { 
+            "id": 23, 
+            "name": "Sophia Green", 
+            "colony_id": 8, 
+            "colony_region_id": 23, 
+            "is_active": true 
+        },
+        { 
+            "id": 24, 
+            "name": "Mason Hill", 
+            "colony_id": 9, 
+            "colony_region_id": 24, 
+            "is_active": true 
+        },
+        { 
+            "id": 25, 
+            "name": "Chloe Adams", 
+            "colony_id": 9, 
+            "colony_region_id": 25, 
+            "is_active": true 
+        },
+        { 
+            "id": 26, 
+            "name": "Evan Moore", 
+            "colony_id": 10, 
+            "colony_region_id": 26, 
+            "is_active": true 
+        },
+        { 
+            "id": 27, 
+            "name": "Jack Taylor", 
+            "colony_id": 11, 
+            "colony_region_id": 27, 
+            "is_active": true 
+        },
+        { 
+            "id": 28, 
+            "name": "Harper Davis", 
+            "colony_id": 12, 
+            "colony_region_id": 28, 
+            "is_active": true 
+        },
+        { 
+            "id": 29, 
+            "name": "Ella Thomas", 
+            "colony_id": 13, 
+            "colony_region_id": 29, 
+            "is_active": true 
+        }
+    ],
     "colonies": [
         { 
             "id": 1, 
@@ -247,7 +451,7 @@
             "name": "New Earth Colony",
             "colony_id": 13
         }
-    ],     
+    ],
     "colonyInventory": [],
     "facilities": [],
     "facilityInventory": []
