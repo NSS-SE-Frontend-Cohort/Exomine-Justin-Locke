@@ -1,0 +1,52 @@
+@startuml
+
+entity "Governors" as Governors {
+  * id : UUID <<PK>>
+  --
+  * name : String
+  * colony_id : UUID <<FK>>
+  * is_active : Boolean
+}
+
+entity "Colonies" as Colonies {
+  * id : UUID <<PK>>
+  --
+  * name : String
+}
+
+entity "Mining Facilities" as MiningFacilities {
+  * id : UUID <<PK>>
+  --
+  * name : String
+  * is_active : Boolean
+}
+
+entity "Minerals" as Minerals {
+  * id : UUID <<PK>>
+  --
+  * name : String
+}
+
+entity "Colony Inventory" as ColonyInventory {
+  * id : UUID <<PK>>
+  --
+  * colony_id : UUID <<FK>>
+  * mineral_id : UUID <<FK>>
+  * quantity : Integer
+}
+
+entity "Mining Facility Inventory" as MiningFacilityInventory {
+  * id : UUID <<PK>>
+  --
+  * facility_id : UUID <<FK>>
+  * mineral_id : UUID <<FK>>
+  * quantity : Integer
+}
+
+Governors }o--|| Colonies
+Colonies ||--|{ ColonyInventory
+ColonyInventory }|--|| Minerals
+MiningFacilities ||--|{ MiningFacilityInventory
+MiningFacilityInventory }|--|| Minerals
+
+@enduml
