@@ -452,8 +452,214 @@
             "colony_id": 13
         }
     ],
-    "colonyInventory": [],
-    "facilities": [],
+    "colonyInventory": [
+        {
+            "id": 1,
+            "colony_id": 1,
+            "mineral_id": 1,
+            "quantity": 5000
+        },
+        {
+            "id": 2,
+            "colony_id": 1,
+            "mineral_id": 2,
+            "quantity": 3000
+        },
+        {
+            "id": 3,
+            "colony_id": 1,
+            "mineral_id": 3,
+            "quantity": 1000
+        },
+        {
+            "id": 4,
+            "colony_id": 1,
+            "mineral_id": 4,
+            "quantity": 800
+        },
+        {
+            "id": 5,
+            "colony_id": 2,
+            "mineral_id": 5,
+            "quantity": 1500
+        },
+        {
+            "id": 6,
+            "colony_id": 2,
+            "mineral_id": 6,
+            "quantity": 1200
+        },
+        {
+            "id": 7,
+            "colony_id": 2,
+            "mineral_id": 7,
+            "quantity": 2000
+        },
+        {
+            "id": 8,
+            "colony_id": 3,
+            "mineral_id": 8,
+            "quantity": 4000
+        },
+        {
+            "id": 9,
+            "colony_id": 3,
+            "mineral_id": 9,
+            "quantity": 2500
+        },
+        {
+            "id": 10,
+            "colony_id": 3,
+            "mineral_id": 10,
+            "quantity": 1000
+        },
+        {
+            "id": 11,
+            "colony_id": 4,
+            "mineral_id": 11,
+            "quantity": 3000
+        },
+        {
+            "id": 12,
+            "colony_id": 4,
+            "mineral_id": 1,
+            "quantity": 1500
+        },
+        {
+            "id": 13,
+            "colony_id": 5,
+            "mineral_id": 2,
+            "quantity": 2000
+        },
+        {
+            "id": 14,
+            "colony_id": 5,
+            "mineral_id": 3,
+            "quantity": 1200
+        },
+        {
+            "id": 15,
+            "colony_id": 6,
+            "mineral_id": 4,
+            "quantity": 2500
+        },
+        {
+            "id": 16,
+            "colony_id": 6,
+            "mineral_id": 5,
+            "quantity": 3000
+        },
+        {
+            "id": 17,
+            "colony_id": 7,
+            "mineral_id": 6,
+            "quantity": 2000
+        },
+        {
+            "id": 18,
+            "colony_id": 7,
+            "mineral_id": 7,
+            "quantity": 1000
+        },
+        {
+            "id": 19,
+            "colony_id": 8,
+            "mineral_id": 8,
+            "quantity": 1500
+        },
+        {
+            "id": 20,
+            "colony_id": 8,
+            "mineral_id": 9,
+            "quantity": 1200
+        },
+        {
+            "id": 21,
+            "colony_id": 9,
+            "mineral_id": 10,
+            "quantity": 1000
+        },
+        {
+            "id": 22,
+            "colony_id": 9,
+            "mineral_id": 11,
+            "quantity": 2000
+        },
+        {
+            "id": 23,
+            "colony_id": 10,
+            "mineral_id": 1,
+            "quantity": 2500
+        },
+        {
+            "id": 24,
+            "colony_id": 10,
+            "mineral_id": 2,
+            "quantity": 1500
+        },
+        {
+            "id": 25,
+            "colony_id": 11,
+            "mineral_id": 3,
+            "quantity": 1000
+        },
+        {
+            "id": 26,
+            "colony_id": 11,
+            "mineral_id": 4,
+            "quantity": 500
+        },
+        {
+            "id": 27,
+            "colony_id": 12,
+            "mineral_id": 5,
+            "quantity": 800
+        },
+        {
+            "id": 28,
+            "colony_id": 12,
+            "mineral_id": 6,
+            "quantity": 600
+        },
+        {
+            "id": 29,
+            "colony_id": 13,
+            "mineral_id": 7,
+            "quantity": 400
+        }
+    ],
+    "facilities": [
+        {
+            "id": 1,
+            "name": "Mining Facility Alpha",
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "name": "Mining Facility Beta",
+            "is_active": true
+        },
+        {
+            "id": 3,
+            "name": "Mining Facility Gamma",
+            "is_active": false
+        },
+        {
+            "id": 4,
+            "name": "Mining Facility Delta",
+            "is_active": true
+        },
+        {
+            "id": 5,
+            "name": "Mining Facility Epsilon",
+            "is_active": true
+        },
+        {
+            "id": 6,
+            "name": "Mining Facility Zeta",
+            "is_active": false
+        }
+    ],
     "facilityInventory": []
 
 }
