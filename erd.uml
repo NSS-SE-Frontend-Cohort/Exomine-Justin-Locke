@@ -5,6 +5,7 @@ entity "Governors" as Governors {
   --
   * name : String
   * colony_id : Integer <<FK>>
+  * colony_region_id : Integer <<FK>>
   * is_active : Boolean
 }
 
@@ -12,6 +13,7 @@ entity "Colonies" as Colonies {
   * id : Integer <<PK>>
   --
   * name : String
+  * regions : String
 }
 
 entity "Mining Facilities" as MiningFacilities {

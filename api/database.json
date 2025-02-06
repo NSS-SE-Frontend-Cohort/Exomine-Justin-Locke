@@ -1,7 +1,161 @@
 {
-    "minerals":[],
+    "minerals":[
+        {
+            "id": 1,
+            "name": "Iron" 
+        },
+        {
+            "id": 2,
+            "name": "Nickel"
+        },
+        {
+            "id": 3,
+            "name": "Iridium"
+        },
+        {
+            "id": 4,
+            "name": "Palladium"
+        },
+        {
+            "id": 5,
+            "name": "Platinum"
+        },
+        {
+            "id": 6,
+            "name": "Gold"
+        },
+        {
+            "id": 7,
+            "name": "Magnesium"
+        },
+        {
+            "id": 8,
+            "name": "Cobalt"
+        },
+        {
+            "id": 9,
+            "name": "Tungsten"
+        },
+        {
+            "id": 10,
+            "name": "Helium-3"
+        },
+        {
+            "id": 11,
+            "name": "Water Ice"
+        }
+
+    ],
     "governors": [],
-    "colonies": [],
+    "colonies": [
+        { 
+            "id": 1, 
+            "name": "Earth", 
+            "regions": [
+                { "id": 1, "name": "North America" },
+                { "id": 2, "name": "South America" },
+                { "id": 3, "name": "Europe" },
+                { "id": 4, "name": "Africa" },
+                { "id": 5, "name": "Asia" },
+                { "id": 6, "name": "Australia" },
+                { "id": 7, "name": "Antarctica" }
+        ]
+        },
+        { 
+            "id": 2, 
+            "name": "Mars", 
+            "regions": [
+                { "id": 1, "name": "New Ares" },
+                { "id": 2, "name": "Olympus Mons City" },
+                { "id": 3, "name": "Valles Marineris Settlement" },
+                { "id": 4, "name": "Elysium Planitia" }
+            ]
+        },
+        { 
+            "id": 3, 
+            "name": "Europa", 
+            "regions": [
+                { "id": 1, "name": "Poseidon Base" },
+                { "id": 2, "name": "Europa Underwater Colony" }
+            ]
+        },
+        { 
+            "id": 4, 
+            "name": "Titan", 
+            "regions": [
+                { "id": 1, "name": "Titan City" },
+                { "id": 2, "name": "Lakeside Base" }
+            ]
+        },
+        { 
+            "id": 5, 
+            "name": "Ceres", 
+            "regions": [
+                { "id": 1, "name": "Ceres Station" },
+                { "id": 2, "name": "Vesta Mining Outpost" }
+            ]
+        },
+        { 
+            "id": 6, 
+            "name": "Luna", 
+            "regions": [
+                { "id": 1, "name": "Luna Base" },
+                { "id": 2, "name": "Mare Tranquillitatis Base" }
+            ]
+        },
+        { 
+            "id": 7, 
+            "name": "Ganymede", 
+            "regions": [
+                { "id": 1, "name": "Galileo Station" },
+                { "id": 2, "name": "Ganymede Subsurface Colony" }
+            ]
+        },
+        { 
+            "id": 8, 
+            "name": "Callisto", 
+            "regions": [
+                { "id": 1, "name": "Callisto Base" },
+                { "id": 2, "name": "Crater Outpost" }
+            ]
+        },
+        { 
+            "id": 9, 
+            "name": "Enceladus", 
+            "regions": [
+                { "id": 1, "name": "Enceladus Geyser Research Facility" },
+                { "id": 2, "name": "Enceladus Ice Harvesting Station" }
+            ]
+        },
+        { 
+            "id": 10, 
+            "name": "Vesta", 
+            "regions": [
+                { "id": 1, "name": "Vesta Mining Station" }
+            ]
+        },
+        { 
+            "id": 11, 
+            "name": "Io", 
+            "regions": [
+                { "id": 1, "name": "Io Volcano Research Base" }
+            ]
+        },
+        { 
+            "id": 12, 
+            "name": "Triton", 
+            "regions": [
+                { "id": 1, "name": "Triton Ice Mining Facility" }
+            ]
+        },
+        { 
+            "id": 13, 
+            "name": "Proxima Centauri b", 
+            "regions": [
+                { "id": 1, "name": "New Earth Colony" }
+            ]
+        }
+    ],
     "colonyInventory": [],
     "facilities": [],
     "facilityInventory": []
