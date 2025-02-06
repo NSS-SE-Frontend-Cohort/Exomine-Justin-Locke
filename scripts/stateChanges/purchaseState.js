@@ -1,4 +1,4 @@
-import { getTransientState } from "./TransientState"
+import getTransientState from './transientState.js'
 
 export const setFacility = (facilityId) => {
     getTransientState().selectedFacility = facilityId
