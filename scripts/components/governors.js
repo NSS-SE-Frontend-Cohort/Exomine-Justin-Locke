@@ -24,7 +24,7 @@ export const getAllGovernors = async () => {
 
 export const getGovernorsForColony = async (colonyId) => {
 
-    const response = await fetch(`http://localhost:8088/governors?colony_id=${colonyId}`);
+    const response = await fetch(`http://localhost:8088/governors?colonyId=${colonyId}`);
     const governors = await response.json();
 
     return `
