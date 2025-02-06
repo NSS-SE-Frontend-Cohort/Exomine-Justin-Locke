@@ -1,4 +1,9 @@
 {
     "minerals":[],
-    "facilityMinerals": []
+    "governors": [],
+    "colonies": [],
+    "colonyInventory": [],
+    "facilities": [],
+    "facilityInventory": []
+
 }
