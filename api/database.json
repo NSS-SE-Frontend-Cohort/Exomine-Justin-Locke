@@ -660,6 +660,109 @@
             "is_active": false
         }
     ],
-    "facilityInventory": []
+    "facilityInventory": [
+        {
+            "id": 1,
+            "facility_id": 1,
+            "mineral_id": 1,
+            "quantity": 500
+        },
+        {
+            "id": 2,
+            "facility_id": 1,
+            "mineral_id": 2,
+            "quantity": 300
+        },
+        {
+            "id": 3,
+            "facility_id": 1,
+            "mineral_id": 3,
+            "quantity": 100
+        },
+        {
+            "id": 4,
+            "facility_id": 2,
+            "mineral_id": 4,
+            "quantity": 250
+        },
+        {
+            "id": 5,
+            "facility_id": 2,
+            "mineral_id": 5,
+            "quantity": 200
+        },
+        {
+            "id": 6,
+            "facility_id": 2,
+            "mineral_id": 6,
+            "quantity": 150
+        },
+        {
+            "id": 7,
+            "facility_id": 3,
+            "mineral_id": 7,
+            "quantity": 350
+        },
+        {
+            "id": 8,
+            "facility_id": 3,
+            "mineral_id": 8,
+            "quantity": 280
+        },
+        {
+            "id": 9,
+            "facility_id": 3,
+            "mineral_id": 9,
+            "quantity": 120
+        },
+        {
+            "id": 10,
+            "facility_id": 4,
+            "mineral_id": 10,
+            "quantity": 400
+        },
+        {
+            "id": 11,
+            "facility_id": 4,
+            "mineral_id": 11,
+            "quantity": 450
+        },
+        {
+            "id": 12,
+            "facility_id": 5,
+            "mineral_id": 1,
+            "quantity": 600
+        },
+        {
+            "id": 13,
+            "facility_id": 5,
+            "mineral_id": 2,
+            "quantity": 350
+        },
+        {
+            "id": 14,
+            "facility_id": 5,
+            "mineral_id": 7,
+            "quantity": 200
+        },
+        {
+            "id": 15,
+            "facility_id": 6,
+            "mineral_id": 3,
+            "quantity": 150
+        },
+        {
+            "id": 16,
+            "facility_id": 6,
+            "mineral_id": 6,
+            "quantity": 220
+        },
+        {
+            "id": 17,
+            "facility_id": 6,
+            "mineral_id": 8,
+            "quantity": 300
+        }
+    ]
 
 }
