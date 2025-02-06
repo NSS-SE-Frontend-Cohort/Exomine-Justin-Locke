@@ -16,6 +16,12 @@ entity "Colonies" as Colonies {
   * regions : String
 }
 
+entity "Regions" as Regions {
+  * id : Integer <<PK>>
+  * name : String
+  * colony_id : Integer <<FK>>
+}
+
 entity "Mining Facilities" as MiningFacilities {
   * id : Integer <<PK>>
   --
@@ -46,6 +52,7 @@ entity "Mining Facility Inventory" as MiningFacilityInventory {
 }
 
 Governors }o--|| Colonies
+Colonies ||--o{ Regions
 Colonies ||--|{ ColonyInventory
 ColonyInventory }|--|| Minerals
 MiningFacilities ||--|{ MiningFacilityInventory

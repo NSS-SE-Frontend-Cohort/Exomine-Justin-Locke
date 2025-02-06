@@ -50,112 +50,204 @@
     "colonies": [
         { 
             "id": 1, 
-            "name": "Earth", 
-            "regions": [
-                { "id": 1, "name": "North America" },
-                { "id": 2, "name": "South America" },
-                { "id": 3, "name": "Europe" },
-                { "id": 4, "name": "Africa" },
-                { "id": 5, "name": "Asia" },
-                { "id": 6, "name": "Australia" },
-                { "id": 7, "name": "Antarctica" }
-        ]
+            "name": "Earth"
         },
         { 
             "id": 2, 
-            "name": "Mars", 
-            "regions": [
-                { "id": 1, "name": "New Ares" },
-                { "id": 2, "name": "Olympus Mons City" },
-                { "id": 3, "name": "Valles Marineris Settlement" },
-                { "id": 4, "name": "Elysium Planitia" }
-            ]
+            "name": "Mars"
         },
         { 
             "id": 3, 
-            "name": "Europa", 
-            "regions": [
-                { "id": 1, "name": "Poseidon Base" },
-                { "id": 2, "name": "Europa Underwater Colony" }
-            ]
+            "name": "Europa"
         },
         { 
             "id": 4, 
-            "name": "Titan", 
-            "regions": [
-                { "id": 1, "name": "Titan City" },
-                { "id": 2, "name": "Lakeside Base" }
-            ]
+            "name": "Titan"
         },
         { 
             "id": 5, 
-            "name": "Ceres", 
-            "regions": [
-                { "id": 1, "name": "Ceres Station" },
-                { "id": 2, "name": "Vesta Mining Outpost" }
-            ]
+            "name": "Ceres"
         },
         { 
             "id": 6, 
-            "name": "Luna", 
-            "regions": [
-                { "id": 1, "name": "Luna Base" },
-                { "id": 2, "name": "Mare Tranquillitatis Base" }
-            ]
+            "name": "Luna"
         },
         { 
             "id": 7, 
-            "name": "Ganymede", 
-            "regions": [
-                { "id": 1, "name": "Galileo Station" },
-                { "id": 2, "name": "Ganymede Subsurface Colony" }
-            ]
+            "name": "Ganymede"
         },
         { 
             "id": 8, 
-            "name": "Callisto", 
-            "regions": [
-                { "id": 1, "name": "Callisto Base" },
-                { "id": 2, "name": "Crater Outpost" }
-            ]
+            "name": "Callisto"
         },
         { 
             "id": 9, 
-            "name": "Enceladus", 
-            "regions": [
-                { "id": 1, "name": "Enceladus Geyser Research Facility" },
-                { "id": 2, "name": "Enceladus Ice Harvesting Station" }
-            ]
+            "name": "Enceladus"
         },
         { 
             "id": 10, 
-            "name": "Vesta", 
-            "regions": [
-                { "id": 1, "name": "Vesta Mining Station" }
-            ]
+            "name": "Vesta"
         },
         { 
             "id": 11, 
-            "name": "Io", 
-            "regions": [
-                { "id": 1, "name": "Io Volcano Research Base" }
-            ]
+            "name": "Io"
         },
         { 
             "id": 12, 
-            "name": "Triton", 
-            "regions": [
-                { "id": 1, "name": "Triton Ice Mining Facility" }
-            ]
+            "name": "Triton"
         },
         { 
             "id": 13, 
-            "name": "Proxima Centauri b", 
-            "regions": [
-                { "id": 1, "name": "New Earth Colony" }
-            ]
+            "name": "Proxima Centauri b"
         }
     ],
+    "regions": [
+        {
+            "id": 1,
+            "name": "North America",
+            "colony_id": 1
+        },
+        {
+            "id": 2,
+            "name": "South America",
+            "colony_id": 1
+        },
+        {
+            "id": 3,
+            "name": "Europe",
+            "colony_id": 1
+        },
+        {
+            "id": 4,
+            "name": "Africa",
+            "colony_id": 1
+        },
+        {
+            "id": 5,
+            "name": "Asia",
+            "colony_id": 1
+        },
+        {
+            "id": 6,
+            "name": "Australia",
+            "colony_id": 1
+        },
+        {
+            "id": 7,
+            "name": "Antarctica",
+            "colony_id": 1
+        },
+        {
+            "id": 8,
+            "name": "New Ares",
+            "colony_id": 2
+        },
+        {
+            "id": 9,
+            "name": "Olympus Mons City",
+            "colony_id": 2
+        },
+        {
+            "id": 10,
+            "name": "Valles Marineris Settlement",
+            "colony_id": 2
+        },
+        {
+            "id": 11,
+            "name": "Elysium Planitia",
+            "colony_id": 2
+        },
+        {
+            "id": 12,
+            "name": "Poseidon Base",
+            "colony_id": 3
+        },
+        {
+            "id": 13,
+            "name": "Europa Underwater Colony",
+            "colony_id": 3
+        },
+        {
+            "id": 14,
+            "name": "Titan City",
+            "colony_id": 4
+        },
+        {
+            "id": 15,
+            "name": "Lakeside Base",
+            "colony_id": 4
+        },
+        {
+            "id": 16,
+            "name": "Ceres Station",
+            "colony_id": 5
+        },
+        {
+            "id": 17,
+            "name": "Vesta Mining Outpost",
+            "colony_id": 5
+        },
+        {
+            "id": 18,
+            "name": "Luna Base",
+            "colony_id": 6
+        },
+        {
+            "id": 19,
+            "name": "Mare Tranquillitatis Base",
+            "colony_id": 6
+        },
+        {
+            "id": 20,
+            "name": "Galileo Station",
+            "colony_id": 7
+        },
+        {
+            "id": 21,
+            "name": "Ganymede Subsurface Colony",
+            "colony_id": 7
+        },
+        {
+            "id": 22,
+            "name": "Callisto Base",
+            "colony_id": 8
+        },
+        {
+            "id": 23,
+            "name": "Crater Outpost",
+            "colony_id": 8
+        },
+        {
+            "id": 24,
+            "name": "Enceladus Geyser Research Facility",
+            "colony_id": 9
+        },
+        {
+            "id": 25,
+            "name": "Enceladus Ice Harvesting Station",
+            "colony_id": 9
+        },
+        {
+            "id": 26,
+            "name": "Vesta Mining Station",
+            "colony_id": 10
+        },
+        {
+            "id": 27,
+            "name": "Io Volcano Research Base",
+            "colony_id": 11
+        },
+        {
+            "id": 28,
+            "name": "Triton Ice Mining Facility",
+            "colony_id": 12
+        },
+        {
+            "id": 29,
+            "name": "New Earth Colony",
+            "colony_id": 13
+        }
+    ],     
     "colonyInventory": [],
     "facilities": [],
     "facilityInventory": []
