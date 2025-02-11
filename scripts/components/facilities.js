@@ -16,7 +16,8 @@ export const getAllFacilities = async () => {
         <h2>Facilities</h2>
             <select name="facilities">
             <option value="" disabled selected hidden>Select a Facility</option>
-            ${facilities.map(facility => `<option value="${facility.id}">${facility.name}</option>`).join("")}
+            ${facilities.map(facility => 
+                `<option value="${facility.id}" ${facility.isActive ? "" : "disabled"}>${facility.name}</option>`).join("")}
             </select>
     `
 }

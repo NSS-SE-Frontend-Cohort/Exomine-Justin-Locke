@@ -30,7 +30,8 @@ export const getGovernorsForColony = async (colonyId) => {
         <h2>Governors</h2>
             <select name="governors">
             <option value="" disabled selected hidden>Governor Selection</option>
-        ${governors.map(governor => `<option value="${governor.id}">${governor.name}</option>`).join("")}
+        ${governors.map(governor => 
+            `<option value="${governor.id}" ${governor.isActive ? "" : "disabled"}>${governor.name}</option>`).join("")}
             </select>
     `
 }

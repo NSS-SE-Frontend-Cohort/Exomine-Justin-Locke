@@ -1,6 +1,7 @@
 import { getAllColonies } from "./components/colonies.js"
 import { getColonyInventory } from "./components/colonyInventory.js";
 import { getAllFacilities } from "./components/facilities.js";
+import { getFacilityInventory } from "./components/facilityInventory.js";
 import { getGovernorInventory } from "./components/governorInventory.js";
 import { getGovernorsForColony } from "./components/governors.js";
 import { eventTypes } from "./events/events.js";
@@ -21,6 +22,11 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
         document.querySelector(".colony_inventory").innerHTML = governorInventory;
         const allFacilities = await getAllFacilities();
         document.querySelector(".choices_facilities").innerHTML = allFacilities;
+    }
+
+    if (field === "facilityId") {
+        const facilityInventory = await getFacilityInventory(value);
+        document.querySelector(".choices_minerals").innerHTML = facilityInventory;
     }
 })
 
