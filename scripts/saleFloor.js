@@ -1,9 +1,9 @@
-import { getAllColonies } from "./components/colonies.js"
+import { getAllColonies, getSingleColony } from "./components/colonies.js"
 import { getColonyInventory } from "./components/colonyInventory.js";
 import { getAllFacilities, createFacilitiesHTML } from "./components/facilities.js";
 import { createFacilityInventoryHTML, getFacilityInventory } from "./components/facilityInventory.js";
 import { getGovernorInventory } from "./components/governorInventory.js";
-import { createGovernorsHTML, getGovernorsForColony } from "./components/governors.js";
+import { createGovernorsHTML, getGovernorsForColony, getSingleGovernor } from "./components/governors.js";
 import { getMineral } from "./components/minerals.js";
 import { createPurchaseButton } from "./components/purchaseButton.js";
 import { eventTypes } from "./events/events.js";
@@ -20,6 +20,11 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
     const { field, value } = event.detail;
     console.log(`State changed for ${field}: ${value}`);
 
+
+    const headerTitle = document.getElementById("exominer_title");
+    const headerSubtitle = document.getElementById("exominer_subtitle");
+
+
     if (field === "colonyId") {
         
         // Show governors from selected colony
@@ -27,11 +32,20 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
         document.querySelector(".choices_governors").innerHTML = createGovernorsHTML(filteredGovernors);
         
         // Show inventory of entire colony
+        const colony = await getSingleColony(value);
         const colonyInventory = await getColonyInventory(value);
         document.querySelector(".colony_inventory").innerHTML = colonyInventory;
+
+        // Update header
+
+        headerSubtitle.textContent += ` We have a visitor from ${colony.name}!`;
     }
 
+
     if (field === "governorId") {
+
+        // Get Governor
+        const governer = await getSingleGovernor(value);
         
         // Show inventory governor is responsible for
         const governorInventory = await getGovernorInventory(value);
@@ -40,6 +54,10 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
         // Show facilities after a governor is selected
         const allFacilities = await getAllFacilities();
         document.querySelector(".choices_facilities").innerHTML = createFacilitiesHTML(allFacilities);
+
+        // Update header
+
+        headerSubtitle.textContent += ` Welcome, Governor ${governer.name} to the Exominer.`
     }
 
     if (field === "facilityId") {
@@ -69,6 +87,11 @@ export const deploySalesFloor = async () => {
 
 
     return `
+        <header id="exominer_header">
+            <h1 id="exominer_title">Exominer</h1>
+            <p id="exominer_subtitle">Explore. Mine. Expand.</p>
+        </header>
+
         <article class="choices">
             <section class="choices_colonies options">
                 ${allColonies}
@@ -78,11 +101,18 @@ export const deploySalesFloor = async () => {
                 <h2>Governors</h2>
 
             </section>
+        </article>
 
+        <article class="inventory">    
             <section class="colony_inventory options">
                 <h2>Colony Inventory</h2>
 
             </section>
+
+            <section class="choices_sale options">
+                
+            </section>
+       
         </article>
 
         <article class="choices">
@@ -94,9 +124,7 @@ export const deploySalesFloor = async () => {
 
             </section>
 
-            <section class="choices_sale options">
-                
-            </section>
+
             
         </article>
     `

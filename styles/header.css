@@ -1,0 +1,40 @@
+#exominer_header {
+    text-align: center;
+    padding: 10px 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    white-space: nowrap;
+}
+
+#exominer_title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#exominer_subtitle {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    will-change: transform;
+    animation: scrollText 15s linear infinite;
+    scroll-behavior: auto;
+    direction: left;
+    padding-left: 30vw;
+}
+
+@keyframes scrollText {
+   from {
+    transform: translateX(100%);
+   }
+   to {
+    transform: translateX(-100%);
+   }
+}

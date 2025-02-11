@@ -1065,7 +1065,7 @@
       "colonyId": 2,
       "governorId": 9,
       "mineralId": 6,
-      "quantity": 1,
+      "quantity": 2,
       "id": 88
     }
   ],
@@ -1136,7 +1136,7 @@
       "id": 6,
       "facilityId": 2,
       "mineralId": 6,
-      "quantity": 148
+      "quantity": 147
     },
     {
       "id": 7,
