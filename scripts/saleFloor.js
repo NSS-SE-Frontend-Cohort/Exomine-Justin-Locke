@@ -1,9 +1,9 @@
 import { getAllColonies } from "./components/colonies.js"
 import { getColonyInventory } from "./components/colonyInventory.js";
-import { getAllFacilities } from "./components/facilities.js";
-import { getFacilityInventory } from "./components/facilityInventory.js";
+import { getAllFacilities, createFacilitiesHTML } from "./components/facilities.js";
+import { createFacilityInventoryHTML, getFacilityInventory } from "./components/facilityInventory.js";
 import { getGovernorInventory } from "./components/governorInventory.js";
-import { getGovernorsForColony } from "./components/governors.js";
+import { createGovernorsHTML, getGovernorsForColony } from "./components/governors.js";
 import { getMineral } from "./components/minerals.js";
 import { createPurchaseButton } from "./components/purchaseButton.js";
 import { eventTypes } from "./events/events.js";
@@ -16,7 +16,7 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
         
         // Show governors from selected colony
         const filteredGovernors = await getGovernorsForColony(value);
-        document.querySelector(".choices_governors").innerHTML = filteredGovernors;
+        document.querySelector(".choices_governors").innerHTML = createGovernorsHTML(filteredGovernors);
         
         // Show inventory of entire colony
         const colonyInventory = await getColonyInventory(value);
@@ -31,14 +31,14 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
         
         // Show facilities after a governor is selected
         const allFacilities = await getAllFacilities();
-        document.querySelector(".choices_facilities").innerHTML = allFacilities;
+        document.querySelector(".choices_facilities").innerHTML = createFacilitiesHTML(allFacilities);
     }
 
     if (field === "facilityId") {
         
         // Show inventory of selected facility
         const facilityInventory = await getFacilityInventory(value);
-        document.querySelector(".choices_minerals").innerHTML = facilityInventory;
+        document.querySelector(".choices_minerals").innerHTML = createFacilityInventoryHTML(facilityInventory);
     }
 
     if (field === "mineralId") {

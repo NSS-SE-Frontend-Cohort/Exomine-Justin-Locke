@@ -12,6 +12,11 @@ export const getAllFacilities = async () => {
     const response = await fetch("http://localhost:8088/facilities");
     const facilities = await response.json();
     
+    return facilities;
+}
+
+export const createFacilitiesHTML = (facilities) => {
+    
     return `
         <h2>Facilities</h2>
             <select name="facilities">

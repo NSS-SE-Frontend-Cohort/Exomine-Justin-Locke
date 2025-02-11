@@ -12,6 +12,10 @@ export const getFacilityInventory = async (id) => {
     const response = await fetch(`http://localhost:8088/facilityInventory?facilityId=${id}&_expand=mineral`);
     const inventory = await response.json();
 
+    return inventory;
+}
+
+export const createFacilityInventoryHTML = (inventory) => {
     return `
         <h2>Minerals</h2>
             ${inventory.map(item => `

@@ -1,11 +1,27 @@
+import { getFacilityInventory } from '../components/facilityInventory.js';
+import { searchGovernorInventory } from '../components/governorInventory.js';
 import getTransientState from './transientState.js'
 
-export const setFacility = (facilityId) => {
-    getTransientState().selectedFacility = facilityId
-    document.dispatchEvent(new CustomEvent("stateChanged"))
-}
+export const purchaseMineral = async () => {
 
-export const purchaseMineral = () => {
+    const transientState = getTransientState();
+
+    const existingMineralForGovernor = await searchGovernorInventory(transientState.governorId, transientState.mineralId);
+    const facilityInventory = await getFacilityInventory(transientState.facilityId);
+    
+
+    if (existingMineralForGovernor) {
+        debugger
+    }
+    else {
+        const postPurchase = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: 
+        }
+    }
     /*
         Does the chosen governor's colony already own some of this mineral?
             - If yes, what should happen?

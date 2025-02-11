@@ -30,3 +30,12 @@ export const getGovernorInventory = async (id) => {
         ).join("")}
     `;
 };
+
+
+export const searchGovernorInventory = async (id, mineralId) => {
+
+    const response = await fetch(`http://localhost:8088/colonyInventory?governorId=${id}&mineralId=${mineralId}`);
+    const minerals = response.json();
+
+    return minerals;
+}

@@ -25,3 +25,4 @@ export const getColonyInventory = async (id) => {
         ).join("")}
     `;
 };
+
