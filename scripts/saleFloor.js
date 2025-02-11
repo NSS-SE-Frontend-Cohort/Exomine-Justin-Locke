@@ -4,6 +4,8 @@ import { getAllFacilities } from "./components/facilities.js";
 import { getFacilityInventory } from "./components/facilityInventory.js";
 import { getGovernorInventory } from "./components/governorInventory.js";
 import { getGovernorsForColony } from "./components/governors.js";
+import { getMineral } from "./components/minerals.js";
+import { createPurchaseButton } from "./components/purchaseButton.js";
 import { eventTypes } from "./events/events.js";
 
 document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
@@ -27,6 +29,14 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
     if (field === "facilityId") {
         const facilityInventory = await getFacilityInventory(value);
         document.querySelector(".choices_minerals").innerHTML = facilityInventory;
+    }
+
+    if (field === "mineralId") {
+        const mineral = await getMineral(value);
+        document.querySelector(".choices_sale").innerHTML = mineral;
+
+        const purchaseButton = createPurchaseButton();
+        document.querySelector(".choices_sale").innerHTML += purchaseButton;
     }
 })
 
@@ -65,11 +75,8 @@ export const deploySalesFloor = async () => {
 
             <section class="choices_sale options">
 
-                <article>
-                    <button id="purchase" hidden>Purchase Minerals</button>
-                </article>
+                
             </section>
-
             
         </article>
     `
