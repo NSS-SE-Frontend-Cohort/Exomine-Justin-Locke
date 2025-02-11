@@ -11,8 +11,10 @@ export const setColonyId = (id) => {
     dispatchTransientStateChanged('colonyId', id);
 }
 
-export const setGovernorId = (id) => transientState.governorId = id;
-
+export const setGovernorId = (id) => {
+    transientState.governorId = id;
+    dispatchTransientStateChanged('governorId', id);
+}
 // Return a copy of the transient state
 export const getTransientState = () => ({ ...transientState });
 

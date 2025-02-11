@@ -453,180 +453,121 @@
         }
     ],
     "colonyInventory": [
-        {
-            "id": 1,
-            "colonyId": 1,
-            "mineralId": 1,
-            "quantity": 5000
-        },
-        {
-            "id": 2,
-            "colonyId": 1,
-            "mineralId": 2,
-            "quantity": 3000
-        },
-        {
-            "id": 3,
-            "colonyId": 1,
-            "mineralId": 3,
-            "quantity": 1000
-        },
-        {
-            "id": 4,
-            "colonyId": 1,
-            "mineralId": 4,
-            "quantity": 800
-        },
-        {
-            "id": 5,
-            "colonyId": 2,
-            "mineralId": 5,
-            "quantity": 1500
-        },
-        {
-            "id": 6,
-            "colonyId": 2,
-            "mineralId": 6,
-            "quantity": 1200
-        },
-        {
-            "id": 7,
-            "colonyId": 2,
-            "mineralId": 7,
-            "quantity": 2000
-        },
-        {
-            "id": 8,
-            "colonyId": 3,
-            "mineralId": 8,
-            "quantity": 4000
-        },
-        {
-            "id": 9,
-            "colonyId": 3,
-            "mineralId": 9,
-            "quantity": 2500
-        },
-        {
-            "id": 10,
-            "colonyId": 3,
-            "mineralId": 10,
-            "quantity": 1000
-        },
-        {
-            "id": 11,
-            "colonyId": 4,
-            "mineralId": 11,
-            "quantity": 3000
-        },
-        {
-            "id": 12,
-            "colonyId": 4,
-            "mineralId": 1,
-            "quantity": 1500
-        },
-        {
-            "id": 13,
-            "colonyId": 5,
-            "mineralId": 2,
-            "quantity": 2000
-        },
-        {
-            "id": 14,
-            "colonyId": 5,
-            "mineralId": 3,
-            "quantity": 1200
-        },
-        {
-            "id": 15,
-            "colonyId": 6,
-            "mineralId": 4,
-            "quantity": 2500
-        },
-        {
-            "id": 16,
-            "colonyId": 6,
-            "mineralId": 5,
-            "quantity": 3000
-        },
-        {
-            "id": 17,
-            "colonyId": 7,
-            "mineralId": 6,
-            "quantity": 2000
-        },
-        {
-            "id": 18,
-            "colonyId": 7,
-            "mineralId": 7,
-            "quantity": 1000
-        },
-        {
-            "id": 19,
-            "colonyId": 8,
-            "mineralId": 8,
-            "quantity": 1500
-        },
-        {
-            "id": 20,
-            "colonyId": 8,
-            "mineralId": 9,
-            "quantity": 1200
-        },
-        {
-            "id": 21,
-            "colonyId": 9,
-            "mineralId": 10,
-            "quantity": 1000
-        },
-        {
-            "id": 22,
-            "colonyId": 9,
-            "mineralId": 11,
-            "quantity": 2000
-        },
-        {
-            "id": 23,
-            "colonyId": 10,
-            "mineralId": 1,
-            "quantity": 2500
-        },
-        {
-            "id": 24,
-            "colonyId": 10,
-            "mineralId": 2,
-            "quantity": 1500
-        },
-        {
-            "id": 25,
-            "colonyId": 11,
-            "mineralId": 3,
-            "quantity": 1000
-        },
-        {
-            "id": 26,
-            "colonyId": 11,
-            "mineralId": 4,
-            "quantity": 500
-        },
-        {
-            "id": 27,
-            "colonyId": 12,
-            "mineralId": 5,
-            "quantity": 800
-        },
-        {
-            "id": 28,
-            "colonyId": 12,
-            "mineralId": 6,
-            "quantity": 600
-        },
-        {
-            "id": 29,
-            "colonyId": 13,
-            "mineralId": 7,
-            "quantity": 400
-        }
+        {"id": 1, "colonyId": 1, "governorId": 1, "mineralId": 1, "quantity": 5000},
+        {"id": 2, "colonyId": 1, "governorId": 1, "mineralId": 2, "quantity": 7000},
+        {"id": 3, "colonyId": 1, "governorId": 1, "mineralId": 3, "quantity": 6000},
+        
+        {"id": 4, "colonyId": 1, "governorId": 2, "mineralId": 4, "quantity": 4000},
+        {"id": 5, "colonyId": 1, "governorId": 2, "mineralId": 6, "quantity": 6500},
+        {"id": 6, "colonyId": 1, "governorId": 2, "mineralId": 7, "quantity": 7200},
+
+        {"id": 7, "colonyId": 1, "governorId": 3, "mineralId": 2, "quantity": 5400},
+        {"id": 8, "colonyId": 1, "governorId": 3, "mineralId": 5, "quantity": 7100},
+        {"id": 9, "colonyId": 1, "governorId": 3, "mineralId": 11, "quantity": 6200},
+
+        {"id": 10, "colonyId": 1, "governorId": 4, "mineralId": 3, "quantity": 5000},
+        {"id": 11, "colonyId": 1, "governorId": 4, "mineralId": 7, "quantity": 6900},
+        {"id": 12, "colonyId": 1, "governorId": 4, "mineralId": 9, "quantity": 5500},
+
+        {"id": 13, "colonyId": 1, "governorId": 5, "mineralId": 2, "quantity": 4700},
+        {"id": 14, "colonyId": 1, "governorId": 5, "mineralId": 4, "quantity": 7300},
+        {"id": 15, "colonyId": 1, "governorId": 5, "mineralId": 10, "quantity": 6700},
+
+        {"id": 16, "colonyId": 1, "governorId": 6, "mineralId": 11, "quantity": 5300},
+        {"id": 17, "colonyId": 1, "governorId": 6, "mineralId": 3, "quantity": 7600},
+        {"id": 18, "colonyId": 1, "governorId": 6, "mineralId": 4, "quantity": 6100},
+
+        {"id": 19, "colonyId": 1, "governorId": 7, "mineralId": 5, "quantity": 5900},
+        {"id": 20, "colonyId": 1, "governorId": 7, "mineralId": 6, "quantity": 6800},
+        {"id": 21, "colonyId": 1, "governorId": 7, "mineralId": 8, "quantity": 7200},
+
+        {"id": 22, "colonyId": 2, "governorId": 8, "mineralId": 11, "quantity": 4900},
+        {"id": 23, "colonyId": 2, "governorId": 8, "mineralId": 5, "quantity": 6200},
+        {"id": 24, "colonyId": 2, "governorId": 8, "mineralId": 3, "quantity": 6600},
+
+        {"id": 25, "colonyId": 2, "governorId": 9, "mineralId": 1, "quantity": 7000},
+        {"id": 26, "colonyId": 2, "governorId": 9, "mineralId": 4, "quantity": 7500},
+        {"id": 27, "colonyId": 2, "governorId": 9, "mineralId": 2, "quantity": 7200},
+
+        {"id": 28, "colonyId": 2, "governorId": 10, "mineralId": 5, "quantity": 5700},
+        {"id": 29, "colonyId": 2, "governorId": 10, "mineralId": 6, "quantity": 6600},
+        {"id": 30, "colonyId": 2, "governorId": 10, "mineralId": 9, "quantity": 6900},
+
+        {"id": 31, "colonyId": 2, "governorId": 11, "mineralId": 10, "quantity": 5600},
+        {"id": 32, "colonyId": 2, "governorId": 11, "mineralId": 3, "quantity": 6400},
+        {"id": 33, "colonyId": 2, "governorId": 11, "mineralId": 8, "quantity": 7100},
+
+        {"id": 34, "colonyId": 3, "governorId": 12, "mineralId": 1, "quantity": 5000},
+        {"id": 35, "colonyId": 3, "governorId": 12, "mineralId": 2, "quantity": 7000},
+        {"id": 36, "colonyId": 3, "governorId": 12, "mineralId": 8, "quantity": 6000},
+
+        {"id": 37, "colonyId": 3, "governorId": 13, "mineralId": 8, "quantity": 5000},
+        {"id": 38, "colonyId": 3, "governorId": 13, "mineralId": 9, "quantity": 7000},
+        {"id": 39, "colonyId": 3, "governorId": 13, "mineralId": 11, "quantity": 6000},
+
+        {"id": 40, "colonyId": 4, "governorId": 14, "mineralId": 2, "quantity": 5000},
+        {"id": 41, "colonyId": 4, "governorId": 14, "mineralId": 3, "quantity": 7000},
+        {"id": 42, "colonyId": 4, "governorId": 14, "mineralId": 7, "quantity": 6000},
+
+        {"id": 43, "colonyId": 4, "governorId": 15, "mineralId": 1, "quantity": 5000},
+        {"id": 44, "colonyId": 4, "governorId": 15, "mineralId": 6, "quantity": 7000},
+        {"id": 45, "colonyId": 4, "governorId": 15, "mineralId": 10, "quantity": 6000},
+
+        {"id": 46, "colonyId": 5, "governorId": 16, "mineralId": 4, "quantity": 5100},
+        {"id": 47, "colonyId": 5, "governorId": 16, "mineralId": 9, "quantity": 6900},
+        {"id": 48, "colonyId": 5, "governorId": 16, "mineralId": 10, "quantity": 7300},
+
+        {"id": 49, "colonyId": 5, "governorId": 17, "mineralId": 7, "quantity": 5600},
+        {"id": 50, "colonyId": 5, "governorId": 17, "mineralId": 8, "quantity": 7200},
+        {"id": 51, "colonyId": 5, "governorId": 17, "mineralId": 11, "quantity": 6400},
+
+        {"id": 52, "colonyId": 6, "governorId": 18, "mineralId": 1, "quantity": 5800},
+        {"id": 53, "colonyId": 6, "governorId": 18, "mineralId": 2, "quantity": 7500},
+        {"id": 54, "colonyId": 6, "governorId": 18, "mineralId": 5, "quantity": 6700},
+
+        {"id": 55, "colonyId": 7, "governorId": 19, "mineralId": 1, "quantity": 5400},
+        {"id": 56, "colonyId": 7, "governorId": 19, "mineralId": 5, "quantity": 6900},
+        {"id": 57, "colonyId": 7, "governorId": 19, "mineralId": 10, "quantity": 6200},
+
+        {"id": 58, "colonyId": 7, "governorId": 20, "mineralId": 5, "quantity": 5700},
+        {"id": 59, "colonyId": 7, "governorId": 20, "mineralId": 8, "quantity": 7300},
+        {"id": 60, "colonyId": 7, "governorId": 20, "mineralId": 9, "quantity": 7100},
+
+        {"id": 61, "colonyId": 8, "governorId": 21, "mineralId": 3, "quantity": 6000},
+        {"id": 62, "colonyId": 8, "governorId": 21, "mineralId": 6, "quantity": 7200},
+        {"id": 63, "colonyId": 8, "governorId": 21, "mineralId": 8, "quantity": 6900},
+
+        {"id": 64, "colonyId": 8, "governorId": 22, "mineralId": 7, "quantity": 5400},
+        {"id": 65, "colonyId": 8, "governorId": 22, "mineralId": 9, "quantity": 7100},
+        {"id": 66, "colonyId": 8, "governorId": 22, "mineralId": 2, "quantity": 6800},
+
+        {"id": 67, "colonyId": 9, "governorId": 23, "mineralId": 1, "quantity": 5300},
+        {"id": 68, "colonyId": 9, "governorId": 23, "mineralId": 3, "quantity": 7500},
+        {"id": 69, "colonyId": 9, "governorId": 23, "mineralId": 7, "quantity": 6300},
+
+        {"id": 70, "colonyId": 9, "governorId": 24, "mineralId": 2, "quantity": 5500},
+        {"id": 71, "colonyId": 9, "governorId": 24, "mineralId": 4, "quantity": 6800},
+        {"id": 72, "colonyId": 9, "governorId": 24, "mineralId": 5, "quantity": 7100},
+
+        {"id": 73, "colonyId": 10, "governorId": 25, "mineralId": 1, "quantity": 5000},
+        {"id": 74, "colonyId": 10, "governorId": 25, "mineralId": 4, "quantity": 6900},
+        {"id": 75, "colonyId": 10, "governorId": 25, "mineralId": 6, "quantity": 6200},
+
+        {"id": 76, "colonyId": 11, "governorId": 26, "mineralId": 2, "quantity": 5200},
+        {"id": 77, "colonyId": 11, "governorId": 26, "mineralId": 8, "quantity": 7500},
+        {"id": 78, "colonyId": 11, "governorId": 26, "mineralId": 9, "quantity": 6700},
+
+        {"id": 79, "colonyId": 12, "governorId": 27, "mineralId": 9, "quantity": 5100},
+        {"id": 80, "colonyId": 12, "governorId": 27, "mineralId": 10, "quantity": 7200},
+        {"id": 81, "colonyId": 12, "governorId": 27, "mineralId": 11, "quantity": 6800},
+
+        {"id": 82, "colonyId": 13, "governorId": 28, "mineralId": 3, "quantity": 5300},
+        {"id": 83, "colonyId": 13, "governorId": 28, "mineralId": 10, "quantity": 7000},
+        {"id": 84, "colonyId": 13, "governorId": 28, "mineralId": 5, "quantity": 7400},
+
+        {"id": 85, "colonyId": 13, "governorId": 29, "mineralId": 10, "quantity": 5600},
+        {"id": 86, "colonyId": 13, "governorId": 29, "mineralId": 11, "quantity": 6900},
+        {"id": 87, "colonyId": 13, "governorId": 29, "mineralId": 7, "quantity": 6600}
     ],
     "facilities": [
         {
