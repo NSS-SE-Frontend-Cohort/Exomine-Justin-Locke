@@ -50,205 +50,205 @@
         { 
             "id": 1, 
             "name": "Sarah Johnson", 
-            "colony_id": 1, 
-            "colony_region_id": 1, 
-            "is_active": true 
+            "colonyId": 1, 
+            "colonyRegionId": 1, 
+            "isActive": true 
         },
         { 
             "id": 2, 
             "name": "Michael Lee", 
-            "colony_id": 1, 
-            "colony_region_id": 2, 
-            "is_active": true 
+            "colonyId": 1, 
+            "colonyRegionId": 2, 
+            "isActive": true 
         },
         { 
             "id": 3, 
             "name": "Laura Smith", 
-            "colony_id": 1, 
-            "colony_region_id": 3, 
-            "is_active": true 
+            "colonyId": 1, 
+            "colonyRegionId": 3, 
+            "isActive": true 
         },
         { 
             "id": 4, 
             "name": "James Williams", 
-            "colony_id": 1, 
-            "colony_region_id": 4, 
-            "is_active": true 
+            "colonyId": 1, 
+            "colonyRegionId": 4, 
+            "isActive": true 
         },
         { 
             "id": 5, 
             "name": "Olivia Brown", 
-            "colony_id": 1, 
-            "colony_region_id": 5, 
-            "is_active": true 
+            "colonyId": 1, 
+            "colonyRegionId": 5, 
+            "isActive": true 
         },
         { 
             "id": 6, 
             "name": "Ethan Davis", 
-            "colony_id": 1, 
-            "colony_region_id": 6, 
-            "is_active": true 
+            "colonyId": 1, 
+            "colonyRegionId": 6, 
+            "isActive": true 
         },
         { 
             "id": 7, 
             "name": "Sophia Wilson", 
-            "colony_id": 1, 
-            "colony_region_id": 7, 
-            "is_active": true 
+            "colonyId": 1, 
+            "colonyRegionId": 7, 
+            "isActive": true 
         },
         { 
             "id": 8, 
             "name": "David Martinez", 
-            "colony_id": 2, 
-            "colony_region_id": 8, 
-            "is_active": true 
+            "colonyId": 2, 
+            "colonyRegionId": 8, 
+            "isActive": true 
         },
         { 
             "id": 9, 
             "name": "Isabella Rodriguez", 
-            "colony_id": 2, 
-            "colony_region_id": 9, 
-            "is_active": true 
+            "colonyId": 2, 
+            "colonyRegionId": 9, 
+            "isActive": true 
         },
         { 
             "id": 10, 
             "name": "Henry Thompson", 
-            "colony_id": 2, 
-            "colony_region_id": 10, 
-            "is_active": true 
+            "colonyId": 2, 
+            "colonyRegionId": 10, 
+            "isActive": true 
         },
         { 
             "id": 11, 
             "name": "Megan Harris", 
-            "colony_id": 2, 
-            "colony_region_id": 11, 
-            "is_active": true 
+            "colonyId": 2, 
+            "colonyRegionId": 11, 
+            "isActive": true 
         },
         { 
             "id": 12, 
             "name": "Jacob Clark", 
-            "colony_id": 3, 
-            "colony_region_id": 12, 
-            "is_active": true 
+            "colonyId": 3, 
+            "colonyRegionId": 12, 
+            "isActive": true 
         },
         { 
             "id": 13, 
             "name": "Amelia Allen", 
-            "colony_id": 3, 
-            "colony_region_id": 13, 
-            "is_active": true 
+            "colonyId": 3, 
+            "colonyRegionId": 13, 
+            "isActive": true 
         },
         { 
             "id": 14, 
             "name": "William Walker", 
-            "colony_id": 4, 
-            "colony_region_id": 14, 
-            "is_active": true 
+            "colonyId": 4, 
+            "colonyRegionId": 14, 
+            "isActive": true 
         },
         { 
             "id": 15, 
             "name": "Charlotte King", 
-            "colony_id": 4, 
-            "colony_region_id": 15, 
-            "is_active": true 
+            "colonyId": 4, 
+            "colonyRegionId": 15, 
+            "isActive": true 
         },
         { 
             "id": 16, 
             "name": "Liam Wright", 
-            "colony_id": 5, 
-            "colony_region_id": 16, 
-            "is_active": true 
+            "colonyId": 5, 
+            "colonyRegionId": 16, 
+            "isActive": true 
         },
         { 
             "id": 17, 
             "name": "Zoe Young", 
-            "colony_id": 5, 
-            "colony_region_id": 17, 
-            "is_active": true 
+            "colonyId": 5, 
+            "colonyRegionId": 17, 
+            "isActive": true 
         },
         { 
             "id": 18, 
             "name": "Benjamin Scott", 
-            "colony_id": 6, 
-            "colony_region_id": 18, 
-            "is_active": true 
+            "colonyId": 6, 
+            "colonyRegionId": 18, 
+            "isActive": true 
         },
         { 
             "id": 19, 
             "name": "Grace Lewis", 
-            "colony_id": 6, 
-            "colony_region_id": 19, 
-            "is_active": true 
+            "colonyId": 6, 
+            "colonyRegionId": 19, 
+            "isActive": true 
         },
         { 
             "id": 20, 
             "name": "Lucas Perez", 
-            "colony_id": 7, 
-            "colony_region_id": 20, 
-            "is_active": true 
+            "colonyId": 7, 
+            "colonyRegionId": 20, 
+            "isActive": true 
         },
         { 
             "id": 21, 
             "name": "Eva Turner", 
-            "colony_id": 7, 
-            "colony_region_id": 21, 
-            "is_active": true 
+            "colonyId": 7, 
+            "colonyRegionId": 21, 
+            "isActive": true 
         },
         { 
             "id": 22, 
             "name": "Daniel Harris", 
-            "colony_id": 8, 
-            "colony_region_id": 22, 
-            "is_active": true 
+            "colonyId": 8, 
+            "colonyRegionId": 22, 
+            "isActive": true 
         },
         { 
             "id": 23, 
             "name": "Sophia Green", 
-            "colony_id": 8, 
-            "colony_region_id": 23, 
-            "is_active": true 
+            "colonyId": 8, 
+            "colonyRegionId": 23, 
+            "isActive": true 
         },
         { 
             "id": 24, 
             "name": "Mason Hill", 
-            "colony_id": 9, 
-            "colony_region_id": 24, 
-            "is_active": true 
+            "colonyId": 9, 
+            "colonyRegionId": 24, 
+            "isActive": true 
         },
         { 
             "id": 25, 
             "name": "Chloe Adams", 
-            "colony_id": 9, 
-            "colony_region_id": 25, 
-            "is_active": true 
+            "colonyId": 9, 
+            "colonyRegionId": 25, 
+            "isActive": true 
         },
         { 
             "id": 26, 
             "name": "Evan Moore", 
-            "colony_id": 10, 
-            "colony_region_id": 26, 
-            "is_active": true 
+            "colonyId": 10, 
+            "colonyRegionId": 26, 
+            "isActive": true 
         },
         { 
             "id": 27, 
             "name": "Jack Taylor", 
-            "colony_id": 11, 
-            "colony_region_id": 27, 
-            "is_active": true 
+            "colonyId": 11, 
+            "colonyRegionId": 27, 
+            "isActive": true 
         },
         { 
             "id": 28, 
             "name": "Harper Davis", 
-            "colony_id": 12, 
-            "colony_region_id": 28, 
-            "is_active": true 
+            "colonyId": 12, 
+            "colonyRegionId": 28, 
+            "isActive": true 
         },
         { 
             "id": 29, 
             "name": "Ella Thomas", 
-            "colony_id": 13, 
-            "colony_region_id": 29, 
-            "is_active": true 
+            "colonyId": 13, 
+            "colonyRegionId": 29, 
+            "isActive": true 
         }
     ],
     "colonies": [
@@ -309,458 +309,399 @@
         {
             "id": 1,
             "name": "North America",
-            "colony_id": 1
+            "colonyId": 1
         },
         {
             "id": 2,
             "name": "South America",
-            "colony_id": 1
+            "colonyId": 1
         },
         {
             "id": 3,
             "name": "Europe",
-            "colony_id": 1
+            "colonyId": 1
         },
         {
             "id": 4,
             "name": "Africa",
-            "colony_id": 1
+            "colonyId": 1
         },
         {
             "id": 5,
             "name": "Asia",
-            "colony_id": 1
+            "colonyId": 1
         },
         {
             "id": 6,
             "name": "Australia",
-            "colony_id": 1
+            "colonyId": 1
         },
         {
             "id": 7,
             "name": "Antarctica",
-            "colony_id": 1
+            "colonyId": 1
         },
         {
             "id": 8,
             "name": "New Ares",
-            "colony_id": 2
+            "colonyId": 2
         },
         {
             "id": 9,
             "name": "Olympus Mons City",
-            "colony_id": 2
+            "colonyId": 2
         },
         {
             "id": 10,
             "name": "Valles Marineris Settlement",
-            "colony_id": 2
+            "colonyId": 2
         },
         {
             "id": 11,
             "name": "Elysium Planitia",
-            "colony_id": 2
+            "colonyId": 2
         },
         {
             "id": 12,
             "name": "Poseidon Base",
-            "colony_id": 3
+            "colonyId": 3
         },
         {
             "id": 13,
             "name": "Europa Underwater Colony",
-            "colony_id": 3
+            "colonyId": 3
         },
         {
             "id": 14,
             "name": "Titan City",
-            "colony_id": 4
+            "colonyId": 4
         },
         {
             "id": 15,
             "name": "Lakeside Base",
-            "colony_id": 4
+            "colonyId": 4
         },
         {
             "id": 16,
             "name": "Ceres Station",
-            "colony_id": 5
+            "colonyId": 5
         },
         {
             "id": 17,
             "name": "Vesta Mining Outpost",
-            "colony_id": 5
+            "colonyId": 5
         },
         {
             "id": 18,
             "name": "Luna Base",
-            "colony_id": 6
+            "colonyId": 6
         },
         {
             "id": 19,
             "name": "Mare Tranquillitatis Base",
-            "colony_id": 6
+            "colonyId": 6
         },
         {
             "id": 20,
             "name": "Galileo Station",
-            "colony_id": 7
+            "colonyId": 7
         },
         {
             "id": 21,
             "name": "Ganymede Subsurface Colony",
-            "colony_id": 7
+            "colonyId": 7
         },
         {
             "id": 22,
             "name": "Callisto Base",
-            "colony_id": 8
+            "colonyId": 8
         },
         {
             "id": 23,
             "name": "Crater Outpost",
-            "colony_id": 8
+            "colonyId": 8
         },
         {
             "id": 24,
             "name": "Enceladus Geyser Research Facility",
-            "colony_id": 9
+            "colonyId": 9
         },
         {
             "id": 25,
             "name": "Enceladus Ice Harvesting Station",
-            "colony_id": 9
+            "colonyId": 9
         },
         {
             "id": 26,
             "name": "Vesta Mining Station",
-            "colony_id": 10
+            "colonyId": 10
         },
         {
             "id": 27,
             "name": "Io Volcano Research Base",
-            "colony_id": 11
+            "colonyId": 11
         },
         {
             "id": 28,
             "name": "Triton Ice Mining Facility",
-            "colony_id": 12
+            "colonyId": 12
         },
         {
             "id": 29,
             "name": "New Earth Colony",
-            "colony_id": 13
+            "colonyId": 13
         }
     ],
     "colonyInventory": [
-        {
-            "id": 1,
-            "colony_id": 1,
-            "mineral_id": 1,
-            "quantity": 5000
-        },
-        {
-            "id": 2,
-            "colony_id": 1,
-            "mineral_id": 2,
-            "quantity": 3000
-        },
-        {
-            "id": 3,
-            "colony_id": 1,
-            "mineral_id": 3,
-            "quantity": 1000
-        },
-        {
-            "id": 4,
-            "colony_id": 1,
-            "mineral_id": 4,
-            "quantity": 800
-        },
-        {
-            "id": 5,
-            "colony_id": 2,
-            "mineral_id": 5,
-            "quantity": 1500
-        },
-        {
-            "id": 6,
-            "colony_id": 2,
-            "mineral_id": 6,
-            "quantity": 1200
-        },
-        {
-            "id": 7,
-            "colony_id": 2,
-            "mineral_id": 7,
-            "quantity": 2000
-        },
-        {
-            "id": 8,
-            "colony_id": 3,
-            "mineral_id": 8,
-            "quantity": 4000
-        },
-        {
-            "id": 9,
-            "colony_id": 3,
-            "mineral_id": 9,
-            "quantity": 2500
-        },
-        {
-            "id": 10,
-            "colony_id": 3,
-            "mineral_id": 10,
-            "quantity": 1000
-        },
-        {
-            "id": 11,
-            "colony_id": 4,
-            "mineral_id": 11,
-            "quantity": 3000
-        },
-        {
-            "id": 12,
-            "colony_id": 4,
-            "mineral_id": 1,
-            "quantity": 1500
-        },
-        {
-            "id": 13,
-            "colony_id": 5,
-            "mineral_id": 2,
-            "quantity": 2000
-        },
-        {
-            "id": 14,
-            "colony_id": 5,
-            "mineral_id": 3,
-            "quantity": 1200
-        },
-        {
-            "id": 15,
-            "colony_id": 6,
-            "mineral_id": 4,
-            "quantity": 2500
-        },
-        {
-            "id": 16,
-            "colony_id": 6,
-            "mineral_id": 5,
-            "quantity": 3000
-        },
-        {
-            "id": 17,
-            "colony_id": 7,
-            "mineral_id": 6,
-            "quantity": 2000
-        },
-        {
-            "id": 18,
-            "colony_id": 7,
-            "mineral_id": 7,
-            "quantity": 1000
-        },
-        {
-            "id": 19,
-            "colony_id": 8,
-            "mineral_id": 8,
-            "quantity": 1500
-        },
-        {
-            "id": 20,
-            "colony_id": 8,
-            "mineral_id": 9,
-            "quantity": 1200
-        },
-        {
-            "id": 21,
-            "colony_id": 9,
-            "mineral_id": 10,
-            "quantity": 1000
-        },
-        {
-            "id": 22,
-            "colony_id": 9,
-            "mineral_id": 11,
-            "quantity": 2000
-        },
-        {
-            "id": 23,
-            "colony_id": 10,
-            "mineral_id": 1,
-            "quantity": 2500
-        },
-        {
-            "id": 24,
-            "colony_id": 10,
-            "mineral_id": 2,
-            "quantity": 1500
-        },
-        {
-            "id": 25,
-            "colony_id": 11,
-            "mineral_id": 3,
-            "quantity": 1000
-        },
-        {
-            "id": 26,
-            "colony_id": 11,
-            "mineral_id": 4,
-            "quantity": 500
-        },
-        {
-            "id": 27,
-            "colony_id": 12,
-            "mineral_id": 5,
-            "quantity": 800
-        },
-        {
-            "id": 28,
-            "colony_id": 12,
-            "mineral_id": 6,
-            "quantity": 600
-        },
-        {
-            "id": 29,
-            "colony_id": 13,
-            "mineral_id": 7,
-            "quantity": 400
-        }
+        {"id": 1, "colonyId": 1, "governorId": 1, "mineralId": 1, "quantity": 5000},
+        {"id": 2, "colonyId": 1, "governorId": 1, "mineralId": 2, "quantity": 7000},
+        {"id": 3, "colonyId": 1, "governorId": 1, "mineralId": 3, "quantity": 6000},
+        
+        {"id": 4, "colonyId": 1, "governorId": 2, "mineralId": 4, "quantity": 4000},
+        {"id": 5, "colonyId": 1, "governorId": 2, "mineralId": 6, "quantity": 6500},
+        {"id": 6, "colonyId": 1, "governorId": 2, "mineralId": 7, "quantity": 7200},
+
+        {"id": 7, "colonyId": 1, "governorId": 3, "mineralId": 2, "quantity": 5400},
+        {"id": 8, "colonyId": 1, "governorId": 3, "mineralId": 5, "quantity": 7100},
+        {"id": 9, "colonyId": 1, "governorId": 3, "mineralId": 11, "quantity": 6200},
+
+        {"id": 10, "colonyId": 1, "governorId": 4, "mineralId": 3, "quantity": 5000},
+        {"id": 11, "colonyId": 1, "governorId": 4, "mineralId": 7, "quantity": 6900},
+        {"id": 12, "colonyId": 1, "governorId": 4, "mineralId": 9, "quantity": 5500},
+
+        {"id": 13, "colonyId": 1, "governorId": 5, "mineralId": 2, "quantity": 4700},
+        {"id": 14, "colonyId": 1, "governorId": 5, "mineralId": 4, "quantity": 7300},
+        {"id": 15, "colonyId": 1, "governorId": 5, "mineralId": 10, "quantity": 6700},
+
+        {"id": 16, "colonyId": 1, "governorId": 6, "mineralId": 11, "quantity": 5300},
+        {"id": 17, "colonyId": 1, "governorId": 6, "mineralId": 3, "quantity": 7600},
+        {"id": 18, "colonyId": 1, "governorId": 6, "mineralId": 4, "quantity": 6100},
+
+        {"id": 19, "colonyId": 1, "governorId": 7, "mineralId": 5, "quantity": 5900},
+        {"id": 20, "colonyId": 1, "governorId": 7, "mineralId": 6, "quantity": 6800},
+        {"id": 21, "colonyId": 1, "governorId": 7, "mineralId": 8, "quantity": 7200},
+
+        {"id": 22, "colonyId": 2, "governorId": 8, "mineralId": 11, "quantity": 4900},
+        {"id": 23, "colonyId": 2, "governorId": 8, "mineralId": 5, "quantity": 6200},
+        {"id": 24, "colonyId": 2, "governorId": 8, "mineralId": 3, "quantity": 6600},
+
+        {"id": 25, "colonyId": 2, "governorId": 9, "mineralId": 1, "quantity": 7000},
+        {"id": 26, "colonyId": 2, "governorId": 9, "mineralId": 4, "quantity": 7500},
+        {"id": 27, "colonyId": 2, "governorId": 9, "mineralId": 2, "quantity": 7200},
+
+        {"id": 28, "colonyId": 2, "governorId": 10, "mineralId": 5, "quantity": 5700},
+        {"id": 29, "colonyId": 2, "governorId": 10, "mineralId": 6, "quantity": 6600},
+        {"id": 30, "colonyId": 2, "governorId": 10, "mineralId": 9, "quantity": 6900},
+
+        {"id": 31, "colonyId": 2, "governorId": 11, "mineralId": 10, "quantity": 5600},
+        {"id": 32, "colonyId": 2, "governorId": 11, "mineralId": 3, "quantity": 6400},
+        {"id": 33, "colonyId": 2, "governorId": 11, "mineralId": 8, "quantity": 7100},
+
+        {"id": 34, "colonyId": 3, "governorId": 12, "mineralId": 1, "quantity": 5000},
+        {"id": 35, "colonyId": 3, "governorId": 12, "mineralId": 2, "quantity": 7000},
+        {"id": 36, "colonyId": 3, "governorId": 12, "mineralId": 8, "quantity": 6000},
+
+        {"id": 37, "colonyId": 3, "governorId": 13, "mineralId": 8, "quantity": 5000},
+        {"id": 38, "colonyId": 3, "governorId": 13, "mineralId": 9, "quantity": 7000},
+        {"id": 39, "colonyId": 3, "governorId": 13, "mineralId": 11, "quantity": 6000},
+
+        {"id": 40, "colonyId": 4, "governorId": 14, "mineralId": 2, "quantity": 5000},
+        {"id": 41, "colonyId": 4, "governorId": 14, "mineralId": 3, "quantity": 7000},
+        {"id": 42, "colonyId": 4, "governorId": 14, "mineralId": 7, "quantity": 6000},
+
+        {"id": 43, "colonyId": 4, "governorId": 15, "mineralId": 1, "quantity": 5000},
+        {"id": 44, "colonyId": 4, "governorId": 15, "mineralId": 6, "quantity": 7000},
+        {"id": 45, "colonyId": 4, "governorId": 15, "mineralId": 10, "quantity": 6000},
+
+        {"id": 46, "colonyId": 5, "governorId": 16, "mineralId": 4, "quantity": 5100},
+        {"id": 47, "colonyId": 5, "governorId": 16, "mineralId": 9, "quantity": 6900},
+        {"id": 48, "colonyId": 5, "governorId": 16, "mineralId": 10, "quantity": 7300},
+
+        {"id": 49, "colonyId": 5, "governorId": 17, "mineralId": 7, "quantity": 5600},
+        {"id": 50, "colonyId": 5, "governorId": 17, "mineralId": 8, "quantity": 7200},
+        {"id": 51, "colonyId": 5, "governorId": 17, "mineralId": 11, "quantity": 6400},
+
+        {"id": 52, "colonyId": 6, "governorId": 18, "mineralId": 1, "quantity": 5800},
+        {"id": 53, "colonyId": 6, "governorId": 18, "mineralId": 2, "quantity": 7500},
+        {"id": 54, "colonyId": 6, "governorId": 18, "mineralId": 5, "quantity": 6700},
+
+        {"id": 55, "colonyId": 7, "governorId": 19, "mineralId": 1, "quantity": 5400},
+        {"id": 56, "colonyId": 7, "governorId": 19, "mineralId": 5, "quantity": 6900},
+        {"id": 57, "colonyId": 7, "governorId": 19, "mineralId": 10, "quantity": 6200},
+
+        {"id": 58, "colonyId": 7, "governorId": 20, "mineralId": 5, "quantity": 5700},
+        {"id": 59, "colonyId": 7, "governorId": 20, "mineralId": 8, "quantity": 7300},
+        {"id": 60, "colonyId": 7, "governorId": 20, "mineralId": 9, "quantity": 7100},
+
+        {"id": 61, "colonyId": 8, "governorId": 21, "mineralId": 3, "quantity": 6000},
+        {"id": 62, "colonyId": 8, "governorId": 21, "mineralId": 6, "quantity": 7200},
+        {"id": 63, "colonyId": 8, "governorId": 21, "mineralId": 8, "quantity": 6900},
+
+        {"id": 64, "colonyId": 8, "governorId": 22, "mineralId": 7, "quantity": 5400},
+        {"id": 65, "colonyId": 8, "governorId": 22, "mineralId": 9, "quantity": 7100},
+        {"id": 66, "colonyId": 8, "governorId": 22, "mineralId": 2, "quantity": 6800},
+
+        {"id": 67, "colonyId": 9, "governorId": 23, "mineralId": 1, "quantity": 5300},
+        {"id": 68, "colonyId": 9, "governorId": 23, "mineralId": 3, "quantity": 7500},
+        {"id": 69, "colonyId": 9, "governorId": 23, "mineralId": 7, "quantity": 6300},
+
+        {"id": 70, "colonyId": 9, "governorId": 24, "mineralId": 2, "quantity": 5500},
+        {"id": 71, "colonyId": 9, "governorId": 24, "mineralId": 4, "quantity": 6800},
+        {"id": 72, "colonyId": 9, "governorId": 24, "mineralId": 5, "quantity": 7100},
+
+        {"id": 73, "colonyId": 10, "governorId": 25, "mineralId": 1, "quantity": 5000},
+        {"id": 74, "colonyId": 10, "governorId": 25, "mineralId": 4, "quantity": 6900},
+        {"id": 75, "colonyId": 10, "governorId": 25, "mineralId": 6, "quantity": 6200},
+
+        {"id": 76, "colonyId": 11, "governorId": 26, "mineralId": 2, "quantity": 5200},
+        {"id": 77, "colonyId": 11, "governorId": 26, "mineralId": 8, "quantity": 7500},
+        {"id": 78, "colonyId": 11, "governorId": 26, "mineralId": 9, "quantity": 6700},
+
+        {"id": 79, "colonyId": 12, "governorId": 27, "mineralId": 9, "quantity": 5100},
+        {"id": 80, "colonyId": 12, "governorId": 27, "mineralId": 10, "quantity": 7200},
+        {"id": 81, "colonyId": 12, "governorId": 27, "mineralId": 11, "quantity": 6800},
+
+        {"id": 82, "colonyId": 13, "governorId": 28, "mineralId": 3, "quantity": 5300},
+        {"id": 83, "colonyId": 13, "governorId": 28, "mineralId": 10, "quantity": 7000},
+        {"id": 84, "colonyId": 13, "governorId": 28, "mineralId": 5, "quantity": 7400},
+
+        {"id": 85, "colonyId": 13, "governorId": 29, "mineralId": 10, "quantity": 5600},
+        {"id": 86, "colonyId": 13, "governorId": 29, "mineralId": 11, "quantity": 6900},
+        {"id": 87, "colonyId": 13, "governorId": 29, "mineralId": 7, "quantity": 6600}
     ],
     "facilities": [
         {
             "id": 1,
             "name": "Mining Facility Alpha",
-            "is_active": true
+            "isActive": true
         },
         {
             "id": 2,
             "name": "Mining Facility Beta",
-            "is_active": true
+            "isActive": true
         },
         {
             "id": 3,
             "name": "Mining Facility Gamma",
-            "is_active": false
+            "isActive": false
         },
         {
             "id": 4,
             "name": "Mining Facility Delta",
-            "is_active": true
+            "isActive": true
         },
         {
             "id": 5,
             "name": "Mining Facility Epsilon",
-            "is_active": true
+            "isActive": true
         },
         {
             "id": 6,
             "name": "Mining Facility Zeta",
-            "is_active": false
+            "isActive": false
         }
     ],
     "facilityInventory": [
         {
             "id": 1,
-            "facility_id": 1,
-            "mineral_id": 1,
+            "facilityId": 1,
+            "mineralId": 1,
             "quantity": 500
         },
         {
             "id": 2,
-            "facility_id": 1,
-            "mineral_id": 2,
+            "facilityId": 1,
+            "mineralId": 2,
             "quantity": 300
         },
         {
             "id": 3,
-            "facility_id": 1,
-            "mineral_id": 3,
+            "facilityId": 1,
+            "mineralId": 3,
             "quantity": 100
         },
         {
             "id": 4,
-            "facility_id": 2,
-            "mineral_id": 4,
+            "facilityId": 2,
+            "mineralId": 4,
             "quantity": 250
         },
         {
             "id": 5,
-            "facility_id": 2,
-            "mineral_id": 5,
+            "facilityId": 2,
+            "mineralId": 5,
             "quantity": 200
         },
         {
             "id": 6,
-            "facility_id": 2,
-            "mineral_id": 6,
+            "facilityId": 2,
+            "mineralId": 6,
             "quantity": 150
         },
         {
             "id": 7,
-            "facility_id": 3,
-            "mineral_id": 7,
+            "facilityId": 3,
+            "mineralId": 7,
             "quantity": 350
         },
         {
             "id": 8,
-            "facility_id": 3,
-            "mineral_id": 8,
+            "facilityId": 3,
+            "mineralId": 8,
             "quantity": 280
         },
         {
             "id": 9,
-            "facility_id": 3,
-            "mineral_id": 9,
+            "facilityId": 3,
+            "mineralId": 9,
             "quantity": 120
         },
         {
             "id": 10,
-            "facility_id": 4,
-            "mineral_id": 10,
+            "facilityId": 4,
+            "mineralId": 10,
             "quantity": 400
         },
         {
             "id": 11,
-            "facility_id": 4,
-            "mineral_id": 11,
+            "facilityId": 4,
+            "mineralId": 11,
             "quantity": 450
         },
         {
             "id": 12,
-            "facility_id": 5,
-            "mineral_id": 1,
+            "facilityId": 5,
+            "mineralId": 1,
             "quantity": 600
         },
         {
             "id": 13,
-            "facility_id": 5,
-            "mineral_id": 2,
+            "facilityId": 5,
+            "mineralId": 2,
             "quantity": 350
         },
         {
             "id": 14,
-            "facility_id": 5,
-            "mineral_id": 7,
+            "facilityId": 5,
+            "mineralId": 7,
             "quantity": 200
         },
         {
             "id": 15,
-            "facility_id": 6,
-            "mineral_id": 3,
+            "facilityId": 6,
+            "mineralId": 3,
             "quantity": 150
         },
         {
             "id": 16,
-            "facility_id": 6,
-            "mineral_id": 6,
+            "facilityId": 6,
+            "mineralId": 6,
             "quantity": 220
         },
         {
             "id": 17,
-            "facility_id": 6,
-            "mineral_id": 8,
+            "facilityId": 6,
+            "mineralId": 8,
             "quantity": 300
         }
     ]
