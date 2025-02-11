@@ -1,7 +1,8 @@
 import { getAllColonies } from "./components/colonies.js"
 import { getColonyInventory } from "./components/colonyInventory.js";
+import { getAllFacilities } from "./components/facilities.js";
 import { getGovernorInventory } from "./components/governorInventory.js";
-import { getAllGovernors, getGovernorsForColony } from "./components/governors.js";
+import { getGovernorsForColony } from "./components/governors.js";
 import { eventTypes } from "./events/events.js";
 
 document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
@@ -18,6 +19,8 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
     if (field === "governorId") {
         const governorInventory = await getGovernorInventory(value);
         document.querySelector(".colony_inventory").innerHTML = governorInventory;
+        const allFacilities = await getAllFacilities();
+        document.querySelector(".choices_facilities").innerHTML = allFacilities;
     }
 })
 
@@ -26,7 +29,6 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
 export const deploySalesFloor = async () => {
     
     const allColonies = await getAllColonies();
-    const allGovernors = await getAllGovernors();
 
 
     return `
@@ -36,13 +38,24 @@ export const deploySalesFloor = async () => {
             </section>
 
             <section class="choices_governors options">
-                ${allGovernors}
+                <h2>Governors</h2>
+
             </section>
 
             <section class="colony_inventory options">
+                <h2>Colony Inventory</h2>
 
             </section>
         </article>
-    
+
+        <article class="choices">
+            <section class="choices_facilities options">
+
+            </section>
+
+            <section class="choices_minerals options">
+
+            </section>
+        </article>
     `
 }

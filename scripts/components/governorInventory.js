@@ -24,8 +24,7 @@ export const getGovernorInventory = async (id) => {
     
     // Return the HTML after using map to iterate over the values in mineralMap
     return `
-        <h2>Governor Inventory</h2>
-        <h3>${region[0].name}</h3>
+        <h2>${region[0].name} Inventory</h2>
         ${[...mineralMap.values()].map(mineral => 
             `<div>${mineral.name}: ${mineral.quantity} tonnes</div>`
         ).join("")}
