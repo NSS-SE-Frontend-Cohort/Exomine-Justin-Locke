@@ -13,28 +13,41 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
     console.log(`State changed for ${field}: ${value}`);
 
     if (field === "colonyId") {
+        
+        // Show governors from selected colony
         const filteredGovernors = await getGovernorsForColony(value);
         document.querySelector(".choices_governors").innerHTML = filteredGovernors;
+        
+        // Show inventory of entire colony
         const colonyInventory = await getColonyInventory(value);
         document.querySelector(".colony_inventory").innerHTML = colonyInventory;
     }
 
     if (field === "governorId") {
+        
+        // Show inventory governor is responsible for
         const governorInventory = await getGovernorInventory(value);
         document.querySelector(".colony_inventory").innerHTML = governorInventory;
+        
+        // Show facilities after a governor is selected
         const allFacilities = await getAllFacilities();
         document.querySelector(".choices_facilities").innerHTML = allFacilities;
     }
 
     if (field === "facilityId") {
+        
+        // Show inventory of selected facility
         const facilityInventory = await getFacilityInventory(value);
         document.querySelector(".choices_minerals").innerHTML = facilityInventory;
     }
 
     if (field === "mineralId") {
+        
+        // Get and show selected mineral in sale area
         const mineral = await getMineral(value);
         document.querySelector(".choices_sale").innerHTML = mineral;
 
+        // Create button for purchase of mineral
         const purchaseButton = createPurchaseButton();
         document.querySelector(".choices_sale").innerHTML += purchaseButton;
     }
@@ -74,7 +87,6 @@ export const deploySalesFloor = async () => {
             </section>
 
             <section class="choices_sale options">
-
                 
             </section>
             
