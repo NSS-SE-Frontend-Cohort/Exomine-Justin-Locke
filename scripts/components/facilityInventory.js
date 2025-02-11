@@ -16,7 +16,7 @@ export const getFacilityInventory = async (id) => {
         <h2>Minerals</h2>
             ${inventory.map(item => `
                 <div>
-                    <input type="radio" name="mineral" value="${item.mineralId}" /> ${item.mineral.name}: ${item.quantity} tonnes
+                    <input type="radio" name="mineral" value="${item.mineralId}" ${item.quantity === 0 ? "disabled" : ""} /> ${item.mineral.name}: ${item.quantity} tonnes
                 </div>
             `).join("")
         }
