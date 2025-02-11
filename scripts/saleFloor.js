@@ -62,6 +62,15 @@ export const deploySalesFloor = async () => {
             <section class="choices_minerals options">
 
             </section>
+
+            <section class="choices_sale options">
+
+                <article>
+                    <button id="purchase" hidden>Purchase Minerals</button>
+                </article>
+            </section>
+
+            
         </article>
     `
 }

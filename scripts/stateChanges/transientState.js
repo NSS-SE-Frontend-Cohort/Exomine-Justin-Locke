@@ -24,7 +24,7 @@ export const setFacilityId = (id) => {
 }
 
 export const setMineralId = (id) => {
-    transientState.materialId = id;
+    transientState.mineralId = id;
     dispatchTransientStateChanged('mineralId', id);
 }
 
