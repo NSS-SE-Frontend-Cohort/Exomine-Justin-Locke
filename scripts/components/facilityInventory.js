@@ -15,6 +15,14 @@ export const getFacilityInventory = async (id) => {
     return inventory;
 }
 
+export const getFacilityInventorySingleMineral = async (facilityId, mineralId) => {
+
+    const response = await fetch(`http://localhost:8088/facilityInventory?facilityId=${facilityId}&mineralId=${mineralId}`);
+    const inventory = await response.json();
+    
+    return inventory[0];
+}
+
 export const createFacilityInventoryHTML = (inventory) => {
     return `
         <h2>Minerals</h2>

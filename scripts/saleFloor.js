@@ -7,6 +7,14 @@ import { createGovernorsHTML, getGovernorsForColony } from "./components/governo
 import { getMineral } from "./components/minerals.js";
 import { createPurchaseButton } from "./components/purchaseButton.js";
 import { eventTypes } from "./events/events.js";
+import { purchaseMineral } from "./stateChanges/purchaseState.js";
+
+
+document.addEventListener("click", (event) => {
+    if (event.target.id === "purchase") {
+        purchaseMineral();
+    }
+})
 
 document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
     const { field, value } = event.detail;
