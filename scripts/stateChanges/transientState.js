@@ -3,7 +3,8 @@ import { dispatchTransientStateChanged } from "../events/events.js";
 const transientState = {
     colonyId: null,
     governorId: null,
-    facilityId: null
+    facilityId: null,
+    mineralId: null
 };
 
 // Setters for the transient state
@@ -21,6 +22,12 @@ export const setFacilityId = (id) => {
     transientState.facilityId = id;
     dispatchTransientStateChanged('facilityId', id);
 }
+
+export const setMineralId = (id) => {
+    transientState.materialId = id;
+    dispatchTransientStateChanged('mineralId', id);
+}
+
 // Return a copy of the transient state
 export const getTransientState = () => ({ ...transientState });
 

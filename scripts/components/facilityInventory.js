@@ -1,3 +1,12 @@
+import { getTransientState, setMineralId } from "../stateChanges/transientState.js";
+
+document.addEventListener("change", (event) => {
+    if (event.target.name === "mineral") {
+        setMineralId(parseInt(event.target.value));
+        console.log("Mineral Stated Changed: ", getTransientState());
+    }
+})
+
 export const getFacilityInventory = async (id) => {
 
     const response = await fetch(`http://localhost:8088/facilityInventory?facilityId=${id}&_expand=mineral`);
