@@ -20,3 +20,11 @@ export const getAllColonies = async () => {
             </select>
     `
 }
+
+export const getSingleColony = async (id) => {
+
+    const response = await fetch(`http://localhost:8088/colonies?id=${id}`);
+    const colony = await response.json();
+
+    return colony[0];
+}

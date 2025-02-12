@@ -7,4 +7,9 @@ const renderAllHTML = async () => {
     exomineContainer.innerHTML = await deploySalesFloor();
 }
 
+document.addEventListener("materialPurchased", event => {
+    console.log("Material Purchased");
+    renderAllHTML();
+})
+
 renderAllHTML();
