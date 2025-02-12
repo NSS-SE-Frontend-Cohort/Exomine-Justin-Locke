@@ -457,7 +457,7 @@
       "colonyId": 1,
       "governorId": 1,
       "mineralId": 1,
-      "quantity": 5000
+      "quantity": 5001
     },
     {
       "id": 2,
@@ -478,7 +478,7 @@
       "colonyId": 1,
       "governorId": 2,
       "mineralId": 4,
-      "quantity": 4000
+      "quantity": 4001
     },
     {
       "id": 5,
@@ -618,7 +618,7 @@
       "colonyId": 2,
       "governorId": 8,
       "mineralId": 3,
-      "quantity": 6600
+      "quantity": 6601
     },
     {
       "id": 25,
@@ -1065,7 +1065,7 @@
       "colonyId": 2,
       "governorId": 9,
       "mineralId": 6,
-      "quantity": 2,
+      "quantity": 3,
       "id": 88
     },
     {
@@ -1113,7 +1113,7 @@
       "id": 1,
       "facilityId": 1,
       "mineralId": 1,
-      "quantity": 500
+      "quantity": 499
     },
     {
       "id": 2,
@@ -1125,13 +1125,13 @@
       "id": 3,
       "facilityId": 1,
       "mineralId": 3,
-      "quantity": 100
+      "quantity": 99
     },
     {
       "id": 4,
       "facilityId": 2,
       "mineralId": 4,
-      "quantity": 247
+      "quantity": 246
     },
     {
       "id": 5,
@@ -1143,7 +1143,7 @@
       "id": 6,
       "facilityId": 2,
       "mineralId": 6,
-      "quantity": 147
+      "quantity": 146
     },
     {
       "id": 7,

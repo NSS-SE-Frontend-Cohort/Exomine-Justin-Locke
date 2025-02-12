@@ -3,7 +3,6 @@ import { getTransientState, setMineralId } from "../stateChanges/transientState.
 document.addEventListener("change", (event) => {
     if (event.target.name === "mineral") {
         setMineralId(parseInt(event.target.value));
-        console.log("Mineral Stated Changed: ", getTransientState());
     }
 })
 

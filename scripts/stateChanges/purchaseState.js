@@ -9,7 +9,6 @@ export const purchaseMineral = async () => {
     const existingMineralForGovernor = await searchGovernorInventory(transientState.governorId, transientState.mineralId);
     const facilityInventory = await getFacilityInventorySingleMineral(transientState.facilityId, transientState.mineralId);
 
-    debugger
     if (facilityInventory.quantity > 0) {
         const updatedFacilityInventory = {
             ...facilityInventory,
@@ -25,7 +24,6 @@ export const purchaseMineral = async () => {
             body: JSON.stringify(updatedFacilityInventory)
         });
 
-        console.log(`Inventory item ${facilityInventory.id} updated. New quantity: ${updatedFacilityInventory.quantity}`);
     } else {
         console.log("Quantity is already 0. Cannot decrease further.");
     }
@@ -45,7 +43,6 @@ export const purchaseMineral = async () => {
             body: JSON.stringify(updatedGovernorMineral)
         });
 
-        console.log(`Governor mineral ${existingMineralForGovernor.id} updated. New quantity: ${updatedGovernorMineral.quantity}`);
     } else {
         
         // Create new inventory for the colony
