@@ -3,7 +3,6 @@ import { getTransientState, setFacilityId } from "../stateChanges/transientState
 document.addEventListener("change", (event) => {
     if (event.target.name === "facilities") {
         setFacilityId(parseInt(event.target.value));
-        console.log("Facility State Changed: ", getTransientState());
     }
 })
 

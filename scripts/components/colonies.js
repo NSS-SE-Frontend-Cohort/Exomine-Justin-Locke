@@ -3,7 +3,6 @@ import { getTransientState, setColonyId } from "../stateChanges/transientState.j
 document.addEventListener("change", (event) => {
     if (event.target.name === "colonies") {
         setColonyId(parseInt(event.target.value));
-        console.log("Colony State Changed: ", getTransientState());
     };
 });
 

@@ -18,8 +18,6 @@ document.addEventListener("click", (event) => {
 
 document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
     const { field, value } = event.detail;
-    console.log(`State changed for ${field}: ${value}`);
-
 
     const headerTitle = document.getElementById("exominer_title");
     const headerSubtitle = document.getElementById("exominer_subtitle");

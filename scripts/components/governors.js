@@ -3,7 +3,6 @@ import { getTransientState, setGovernorId } from "../stateChanges/transientState
 document.addEventListener("change", (event) => {
     if (event.target.name === "governors") {
         setGovernorId(parseInt(event.target.value));
-        console.log("Governor State Changed: ", getTransientState())
     }
     
 })
