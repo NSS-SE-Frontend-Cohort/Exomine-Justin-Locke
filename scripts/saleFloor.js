@@ -4,7 +4,7 @@ import { getAllFacilities, createFacilitiesHTML } from "./components/facilities.
 import { createFacilityInventoryHTML, getFacilityInventory } from "./components/facilityInventory.js";
 import { getGovernorInventory } from "./components/governorInventory.js";
 import { createGovernorsHTML, getGovernorsForColony, getSingleGovernor } from "./components/governors.js";
-import { getMineral } from "./components/minerals.js";
+import { createMineralHTML, getMineral } from "./components/minerals.js";
 import { createPurchaseButton } from "./components/purchaseButton.js";
 import { eventTypes } from "./events/events.js";
 import { purchaseMineral } from "./stateChanges/purchaseState.js";
@@ -71,7 +71,7 @@ document.addEventListener(eventTypes.TRANSIENT_STATE_CHANGED, async (event) => {
         
         // Get and show selected mineral in sale area
         const mineral = await getMineral(value);
-        document.querySelector(".choices_sale").innerHTML = mineral;
+        document.querySelector(".choices_sale").innerHTML = createMineralHTML(mineral);
 
         // Create button for purchase of mineral
         const purchaseButton = createPurchaseButton();
@@ -97,10 +97,10 @@ export const deploySalesFloor = async () => {
                 ${allColonies}
             </section>
 
-            <section class="choices_governors options">
-                <h2>Governors</h2>
-
+            <section class="choices_facilities options">
+                <h2>Facilities</h2>
             </section>
+
         </article>
 
         <article class="inventory">    
@@ -116,10 +116,12 @@ export const deploySalesFloor = async () => {
         </article>
 
         <article class="choices">
-            <section class="choices_facilities options">
+
+            <section class="choices_governors options">
+                <h2>Governors</h2>
 
             </section>
-
+            
             <section class="choices_minerals options">
 
             </section>

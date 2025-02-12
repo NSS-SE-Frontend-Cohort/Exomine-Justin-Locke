@@ -3,11 +3,16 @@ export const getMineral = async (id) => {
     const response = await fetch(`http://localhost:8088/minerals?id=${id}`);
     const mineral = await response.json();
 
+    return mineral[0];
+}
+
+export const createMineralHTML = (mineral) => {
     return `
         <h2>Mineral to buy</h2>
         <div>
             <section>
-                ${mineral[0].name}
+                ${mineral.name}
+                
             </section>
         </div>
     `

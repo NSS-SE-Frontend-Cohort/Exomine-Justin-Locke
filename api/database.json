@@ -1067,6 +1067,13 @@
       "mineralId": 6,
       "quantity": 2,
       "id": 88
+    },
+    {
+      "colonyId": 2,
+      "governorId": 9,
+      "mineralId": 5,
+      "quantity": 1,
+      "id": 89
     }
   ],
   "facilities": [
@@ -1130,7 +1137,7 @@
       "id": 5,
       "facilityId": 2,
       "mineralId": 5,
-      "quantity": 200
+      "quantity": 199
     },
     {
       "id": 6,
